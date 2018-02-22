@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>12904</QvBuildNo>
+   <CreatorDoc>C:\Users\Mike\SkyDrive\Documents\PluralsightWorking_loader.qvw</CreatorDoc>
+   <CreateUtcTime>2015-07-05 16:17:23</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>Product</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>ProductID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>504</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>2520</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$key</String>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Name</FieldName>
+       <BitOffset>23</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>504</NoOfSymbols>
+       <Offset>2520</Offset>
+       <Length>10286</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ProductNumber</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>504</NoOfSymbols>
+       <Offset>12806</Offset>
+       <Length>5139</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>MakeFlag</FieldName>
+       <BitOffset>108</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>17945</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>FinishedGoodsFlag</FieldName>
+       <BitOffset>109</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>17955</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Color</FieldName>
+       <BitOffset>89</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>9</NoOfSymbols>
+       <Offset>17965</Offset>
+       <Length>68</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SafetyStockLevel</FieldName>
+       <BitOffset>76</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>18033</Offset>
+       <Length>30</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ReorderPoint</FieldName>
+       <BitOffset>80</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>18063</Offset>
+       <Length>30</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>StandardCost</FieldName>
+       <BitOffset>9</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>MONEY</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>114</NoOfSymbols>
+       <Offset>18093</Offset>
+       <Length>1022</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$key</String>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ListPrice</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>MONEY</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>103</NoOfSymbols>
+       <Offset>19115</Offset>
+       <Length>903</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Size</FieldName>
+       <BitOffset>93</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>18</NoOfSymbols>
+       <Offset>20018</Offset>
+       <Length>125</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SizeUnitMeasureCode</FieldName>
+       <BitOffset>72</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>20143</Offset>
+       <Length>4</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>WeightUnitMeasureCode</FieldName>
+       <BitOffset>74</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>20147</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Weight</FieldName>
+       <BitOffset>47</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>FIX</Type>
+         <nDec>2</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>127</NoOfSymbols>
+       <Offset>20154</Offset>
+       <Length>1031</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>DaysToManufacture</FieldName>
+       <BitOffset>101</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>21185</Offset>
+       <Length>20</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ProductLine</FieldName>
+       <BitOffset>83</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>21205</Offset>
+       <Length>12</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Class</FieldName>
+       <BitOffset>86</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>21217</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Style</FieldName>
+       <BitOffset>98</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>21226</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ProductSubcategoryID</FieldName>
+       <BitOffset>41</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>37</NoOfSymbols>
+       <Offset>21235</Offset>
+       <Length>185</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ProductModelID</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>119</NoOfSymbols>
+       <Offset>21420</Offset>
+       <Length>595</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SellStartDate</FieldName>
+       <BitOffset>104</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>22015</Offset>
+       <Length>20</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SellEndDate</FieldName>
+       <BitOffset>106</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>22035</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>DiscontinuedDate</FieldName>
+       <BitOffset>110</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>0</NoOfSymbols>
+       <Offset>22045</Offset>
+       <Length>0</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>rowguid</FieldName>
+       <BitOffset>55</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>504</NoOfSymbols>
+       <Offset>22045</Offset>
+       <Length>20160</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ModifiedDate</FieldName>
+       <BitOffset>111</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>42205</Offset>
+       <Length>18</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$timestamp</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>14</RecordByteSize>
+   <NoOfRecords>504</NoOfRecords>
+   <Offset>42223</Offset>
+   <Length>7056</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=AdventureWorks;Data Source=ULTRABOOK;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=ULTRABOOK;Use Encryption for Data=False;Tag with column collation when possible=False</Discriminator>
+       <Statement>OrderHeader: 
+
+SQL SELECT *
+FROM AdventureWorks.Sales.SalesOrderHeader
+</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=AdventureWorks;Data Source=ULTRABOOK;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=ULTRABOOK;Use Encryption for Data=False;Tag with column collation when possible=False</Discriminator>
+       <Statement>Product:
+SQL SELECT *
+FROM AdventureWorks.Production.Product</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=AdventureWorks;Data Source=ULTRABOOK;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=ULTRABOOK;Use Encryption for Data=False;Tag with column collation when possible=False</Discriminator>
+       <Statement>ProductCostMap:
+LOAD DISTINCT
+	ProductID,
+    StandardCost
+    ;SQL SELECT ProductID, StandardCost
+FROM AdventureWorks.Production.Product</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=AdventureWorks;Data Source=ULTRABOOK;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=ULTRABOOK;Use Encryption for Data=False;Tag with column collation when possible=False</Discriminator>
+       <Statement>SQL SELECT ProductID, StandardCost
+FROM AdventureWorks.Production.Product</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=AdventureWorks;Data Source=ULTRABOOK;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=ULTRABOOK;Use Encryption for Data=False;Tag with column collation when possible=False</Discriminator>
+       <Statement>[Order Detail]: 
+SQL SELECT  *
+FROM AdventureWorks.Sales.SalesOrderDetail</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - OrderDetail.QVD</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - OrderHeader.QVD</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - Product.QVD</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - ProductCostMap.QVD</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+             <  =  >  ?  @  A  B  C  D  E  F  G  H  I  J  K  L  U  V  W  X  Y  Z  [  \  ]  ^  _  `  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t  u  v  w  x  y  z  {  |  }  ~    Ä  Å  Ç  É  Ñ  Ö  Ü  á  à  â  ä  ã  å  ç  é  è  ê  ë  í  ì  î  ï  ñ  ó  ò  ô  ö  õ  ú  ù  û  ü  †  °  ¢  £  §  •  ¶  ß  ®  ©  ™  ´  ¨  ≠  Æ  Ø  ∞  ±  ≤  ≥  ¥  µ  ∂  ∑  ∏  π  ∫  ª  º  Ω  æ  ø  ¿  ¡  ¬  √  ƒ  ≈  ∆  «  »  …     À  Ã  Õ  Œ  œ  –  —  “  ”  ‘  ’  ÷  ◊  ÿ  Ÿ  ⁄  €  ‹  ›  ﬁ  ﬂ  ‡  ·  ‚  „  ‰  Â  Ê  Á  Ë  È  Í  Î  Ï  Ì  Ó  Ô    Ò  ¯  ˘  ˙  ˚  ¸  ˝  ˛  ˇ                     	  
+                            ß  ®  ¬  √  ƒ  ≈  ∆  «  »  …     À  Ã  Õ  Œ  œ  –  —  “  ”  ‘  ’  ÷  ◊  ÿ  Ÿ  ⁄  €  ‹  ›  ﬁ  ﬂ  ‡  ·  ‚  „  ‰  Â  Ê  Á  Ë  È  Í  Î  Ï  Ì  Ó  Ô    Ò  Ú  Û  Ù  ı  ˆ  ˜  ¯  ˘  ˙  ˚  ¸  ˝  ˛  ˇ                     	  
+                                               !  "  #  $  %  &  '  (  )  *  +  ,  -  .  /  0  1  2  3  4  5  6  7  8  9  :  ;  <  =  >  ?  @  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z  [  \  ]  ^  _  `  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t  u  v  w  x  y  z  {  |  }  ~    Ä  Å  Ç  É  Ñ  Ö  Ü  á  à  â  ä  ã  å  ç  é  è  ê  ë  í  ì  î  ï  ñ  ó  ò  ô  ö  õ  ú  ù  û  ü  †  °  ¢  £  §  •  ¶  ß  ®  ©  ™  ´  ¨  ≠  Æ  Ø  ∞  ±  ≤  ≥  ¥  µ  ∂  ∑  ∏  π  ∫  ª  º  Ω  æ  ø  ¿  ¡  ¬  √  ƒ  ≈  ∆  «  »  …     À  Ã  Õ  Œ  œ  –  —  “  ”  ‘  ’  ÷  ◊  ÿ  Ÿ  ⁄  €  ‹  ›  ﬁ  ﬂ  ‡  ·  ‚  „  ‰  Â  Ê  Á  Adjustable Race Bearing Ball BB Ball Bearing Headset Ball Bearings Blade LL Crankarm ML Crankarm HL Crankarm Chainring Bolts Chainring Nut Chainring Crown Race Chain Stays Decal 1 Decal 2 Down Tube Mountain End Caps Road End Caps Touring End Caps Fork End Freewheel Flat Washer 1 Flat Washer 6 Flat Washer 2 Flat Washer 9 Flat Washer 4 Flat Washer 3 Flat Washer 8 Flat Washer 5 Flat Washer 7 Fork Crown Front Derailleur Cage Front Derailleur Linkage Guide Pulley LL Grip Tape ML Grip Tape HL Grip Tape Thin-Jam Hex Nut 9 Thin-Jam Hex Nut 10 Thin-Jam Hex Nut 1 Thin-Jam Hex Nut 2 Thin-Jam Hex Nut 15 Thin-Jam Hex Nut 16 Thin-Jam Hex Nut 5 Thin-Jam Hex Nut 6 Thin-Jam Hex Nut 3 Thin-Jam Hex Nut 4 Thin-Jam Hex Nut 13 Thin-Jam Hex Nut 14 Thin-Jam Hex Nut 7 Thin-Jam Hex Nut 8 Thin-Jam Hex Nut 12 Thin-Jam Hex Nut 11 Hex Nut 5 Hex Nut 6 Hex Nut 16 Hex Nut 17 Hex Nut 7 Hex Nut 8 Hex Nut 9 Hex Nut 22 Hex Nut 23 Hex Nut 12 Hex Nut 13 Hex Nut 1 Hex Nut 10 Hex Nut 11 Hex Nut 2 Hex Nut 20 Hex Nut 21 Hex Nut 3 Hex Nut 14 Hex Nut 15 Hex Nut 4 Hex Nut 18 Hex Nut 19 Handlebar Tube Head Tube LL Hub HL Hub Keyed Washer External Lock Washer 3 External Lock Washer 4 External Lock Washer 9 External Lock Washer 5 External Lock Washer 7 External Lock Washer 6 External Lock Washer 1 External Lock Washer 8 External Lock Washer 2 Internal Lock Washer 3 Internal Lock Washer 4 Internal Lock Washer 9 Internal Lock Washer 5 Internal Lock Washer 7 Internal Lock Washer 6 Internal Lock Washer 10 Internal Lock Washer 1 Internal Lock Washer 8 Internal Lock Washer 2 Thin-Jam Lock Nut 9 Thin-Jam Lock Nut 10 Thin-Jam Lock Nut 1 Thin-Jam Lock Nut 2 Thin-Jam Lock Nut 15 Thin-Jam Lock Nut 16 Thin-Jam Lock Nut 5 Thin-Jam Lock Nut 6 Thin-Jam Lock Nut 3 Thin-Jam Lock Nut 4 Thin-Jam Lock Nut 13 Thin-Jam Lock Nut 14 Thin-Jam Lock Nut 7 Thin-Jam Lock Nut 8 Thin-Jam Lock Nut 12 Thin-Jam Lock Nut 11 Lock Nut 5 Lock Nut 6 Lock Nut 16 Lock Nut 17 Lock Nut 7 Lock Nut 8 Lock Nut 9 Lock Nut 22 Lock Nut 23 Lock Nut 12 Lock Nut 13 Lock Nut 1 Lock Nut 10 Lock Nut 11 Lock Nut 2 Lock Nut 20 Lock Nut 21 Lock Nut 3 Lock Nut 14 Lock Nut 15 Lock Nut 4 Lock Nut 19 Lock Nut 18 Lock Ring Lower Head Race Lock Washer 4 Lock Washer 5 Lock Washer 10 Lock Washer 6 Lock Washer 13 Lock Washer 8 Lock Washer 1 Lock Washer 7 Lock Washer 12 Lock Washer 2 Lock Washer 9 Lock Washer 3 Lock Washer 11 Metal Angle Metal Bar 1 Metal Bar 2 Metal Plate 2 Metal Plate 1 Metal Plate 3 Metal Sheet 2 Metal Sheet 3 Metal Sheet 7 Metal Sheet 4 Metal Sheet 5 Metal Sheet 6 Metal Sheet 1 Metal Tread Plate LL Nipple HL Nipple Paint - Black Paint - Red Paint - Silver Paint - Blue Paint - Yellow Pinch Bolt Cup-Shaped Race Cone-Shaped Race Reflector LL Mountain Rim ML Mountain Rim HL Mountain Rim LL Road Rim ML Road Rim HL Road Rim Touring Rim LL Mountain Seat Assembly ML Mountain Seat Assembly HL Mountain Seat Assembly LL Road Seat Assembly ML Road Seat Assembly HL Road Seat Assembly LL Touring Seat Assembly ML Touring Seat Assembly HL Touring Seat Assembly LL Spindle/Axle HL Spindle/Axle LL Shell HL Shell Spokes Seat Lug Stem Seat Post Steerer Seat Stays Seat Tube Top Tube Tension Pulley Rear Derailleur Cage HL Road Frame - Black, 58 HL Road Frame - Red, 58 Sport-100 Helmet, Red Sport-100 Helmet, Black Mountain Bike Socks, M Mountain Bike Socks, L Sport-100 Helmet, Blue AWC Logo Cap Long-Sleeve Logo Jersey, S Long-Sleeve Logo Jersey, M Long-Sleeve Logo Jersey, L Long-Sleeve Logo Jersey, XL HL Road Frame - Red, 62 HL Road Frame - Red, 44 HL Road Frame - Red, 48 HL Road Frame - Red, 52 HL Road Frame - Red, 56 LL Road Frame - Black, 58 LL Road Frame - Black, 60 LL Road Frame - Black, 62 LL Road Frame - Red, 44 LL Road Frame - Red, 48 LL Road Frame - Red, 52 LL Road Frame - Red, 58 LL Road Frame - Red, 60 LL Road Frame - Red, 62 ML Road Frame - Red, 44 ML Road Frame - Red, 48 ML Road Frame - Red, 52 ML Road Frame - Red, 58 ML Road Frame - Red, 60 LL Road Frame - Black, 44 LL Road Frame - Black, 48 LL Road Frame - Black, 52 HL Mountain Frame - Silver, 42 HL Mountain Frame - Silver, 44 HL Mountain Frame - Silver, 48 HL Mountain Frame - Silver, 46 HL Mountain Frame - Black, 42 HL Mountain Frame - Black, 44 HL Mountain Frame - Black, 48 HL Mountain Frame - Black, 46 HL Mountain Frame - Black, 38 HL Mountain Frame - Silver, 38 Road-150 Red, 62 Road-150 Red, 44 Road-150 Red, 48 Road-150 Red, 52 Road-150 Red, 56 Road-450 Red, 58 Road-450 Red, 60 Road-450 Red, 44 Road-450 Red, 48 Road-450 Red, 52 Road-650 Red, 58 Road-650 Red, 60 Road-650 Red, 62 Road-650 Red, 44 Road-650 Red, 48 Road-650 Red, 52 Road-650 Black, 58 Road-650 Black, 60 Road-650 Black, 62 Road-650 Black, 44 Road-650 Black, 48 Road-650 Black, 52 Mountain-100 Silver, 38 Mountain-100 Silver, 42 Mountain-100 Silver, 44 Mountain-100 Silver, 48 Mountain-100 Black, 38 Mountain-100 Black, 42 Mountain-100 Black, 44 Mountain-100 Black, 48 Mountain-200 Silver, 38 Mountain-200 Silver, 42 Mountain-200 Silver, 46 Mountain-200 Black, 38 Mountain-200 Black, 42 Mountain-200 Black, 46 Mountain-300 Black, 38 Mountain-300 Black, 40 Mountain-300 Black, 44 Mountain-300 Black, 48 Road-250 Red, 44 Road-250 Red, 48 Road-250 Red, 52 Road-250 Red, 58 Road-250 Black, 44 Road-250 Black, 48 Road-250 Black, 52 Road-250 Black, 58 Road-550-W Yellow, 38 Road-550-W Yellow, 40 Road-550-W Yellow, 42 Road-550-W Yellow, 44 Road-550-W Yellow, 48 LL Fork ML Fork HL Fork LL Headset ML Headset HL Headset LL Mountain Handlebars ML Mountain Handlebars HL Mountain Handlebars LL Road Handlebars ML Road Handlebars HL Road Handlebars ML Mountain Frame - Black, 38 LL Mountain Front Wheel ML Mountain Front Wheel HL Mountain Front Wheel LL Road Front Wheel ML Road Front Wheel HL Road Front Wheel Touring Front Wheel ML Road Frame-W - Yellow, 38 LL Mountain Rear Wheel ML Mountain Rear Wheel HL Mountain Rear Wheel LL Road Rear Wheel ML Road Rear Wheel HL Road Rear Wheel Touring Rear Wheel ML Mountain Frame - Black, 40 ML Mountain Frame - Black, 44 ML Mountain Frame - Black, 48 ML Road Frame-W - Yellow, 40 ML Road Frame-W - Yellow, 42 ML Road Frame-W - Yellow, 44 ML Road Frame-W - Yellow, 48 HL Road Frame - Black, 62 HL Road Frame - Black, 44 HL Road Frame - Black, 48 HL Road Frame - Black, 52 Men's Sports Shorts, S Touring-Panniers, Large Cable Lock Minipump Mountain Pump Taillights - Battery-Powered Headlights - Dual-Beam Headlights - Weatherproof Men's Sports Shorts, M Men's Sports Shorts, L Men's Sports Shorts, XL Women's Tights, S Women's Tights, M Women's Tights, L Men's Bib-Shorts, S Men's Bib-Shorts, M Men's Bib-Shorts, L Half-Finger Gloves, S Half-Finger Gloves, M Half-Finger Gloves, L Full-Finger Gloves, S Full-Finger Gloves, M Full-Finger Gloves, L Classic Vest, S Classic Vest, M Classic Vest, L Women's Mountain Shorts, S Women's Mountain Shorts, M Women's Mountain Shorts, L Water Bottle - 30 oz. Mountain Bottle Cage Road Bottle Cage Patch Kit/8 Patches Racing Socks, M Racing Socks, L Hitch Rack - 4-Bike Bike Wash - Dissolver Fender Set - Mountain All-Purpose Bike Stand Hydration Pack - 70 oz. Short-Sleeve Classic Jersey, S Short-Sleeve Classic Jersey, M Short-Sleeve Classic Jersey, L Short-Sleeve Classic Jersey, XL HL Touring Frame - Yellow, 60 LL Touring Frame - Yellow, 62 HL Touring Frame - Yellow, 46 HL Touring Frame - Yellow, 50 HL Touring Frame - Yellow, 54 HL Touring Frame - Blue, 46 HL Touring Frame - Blue, 50 HL Touring Frame - Blue, 54 HL Touring Frame - Blue, 60 Rear Derailleur LL Touring Frame - Blue, 50 LL Touring Frame - Blue, 54 LL Touring Frame - Blue, 58 LL Touring Frame - Blue, 62 LL Touring Frame - Yellow, 44 LL Touring Frame - Yellow, 50 LL Touring Frame - Yellow, 54 LL Touring Frame - Yellow, 58 LL Touring Frame - Blue, 44 ML Mountain Frame-W - Silver, 40 ML Mountain Frame-W - Silver, 42 ML Mountain Frame-W - Silver, 46 Rear Brakes LL Mountain Seat/Saddle ML Mountain Seat/Saddle HL Mountain Seat/Saddle LL Road Seat/Saddle ML Road Seat/Saddle HL Road Seat/Saddle LL Touring Seat/Saddle ML Touring Seat/Saddle HL Touring Seat/Saddle LL Mountain Frame - Silver, 42 LL Mountain Frame - Silver, 44 LL Mountain Frame - Silver, 48 LL Mountain Frame - Silver, 52 Mountain Tire Tube Road Tire Tube Touring Tire Tube LL Mountain Frame - Black, 42 LL Mountain Frame - Black, 44 LL Mountain Frame - Black, 48 LL Mountain Frame - Black, 52 LL Mountain Tire ML Mountain Tire HL Mountain Tire LL Road Tire ML Road Tire HL Road Tire Touring Tire LL Mountain Pedal ML Mountain Pedal HL Mountain Pedal LL Road Pedal ML Road Pedal HL Road Pedal Touring Pedal ML Mountain Frame-W - Silver, 38 LL Mountain Frame - Black, 40 LL Mountain Frame - Silver, 40 Front Derailleur LL Touring Handlebars HL Touring Handlebars Front Brakes LL Crankset ML Crankset HL Crankset Chain Touring-2000 Blue, 60 Touring-1000 Yellow, 46 Touring-1000 Yellow, 50 Touring-1000 Yellow, 54 Touring-1000 Yellow, 60 Touring-3000 Blue, 54 Touring-3000 Blue, 58 Touring-3000 Blue, 62 Touring-3000 Yellow, 44 Touring-3000 Yellow, 50 Touring-3000 Yellow, 54 Touring-3000 Yellow, 58 Touring-3000 Yellow, 62 Touring-1000 Blue, 46 Touring-1000 Blue, 50 Touring-1000 Blue, 54 Touring-1000 Blue, 60 Touring-2000 Blue, 46 Touring-2000 Blue, 50 Touring-2000 Blue, 54 Road-350-W Yellow, 40 Road-350-W Yellow, 42 Road-350-W Yellow, 44 Road-350-W Yellow, 48 Road-750 Black, 58 Touring-3000 Blue, 44 Touring-3000 Blue, 50 Mountain-400-W Silver, 38 Mountain-400-W Silver, 40 Mountain-400-W Silver, 42 Mountain-400-W Silver, 46 Mountain-500 Silver, 40 Mountain-500 Silver, 42 Mountain-500 Silver, 44 Mountain-500 Silver, 48 Mountain-500 Silver, 52 Mountain-500 Black, 40 Mountain-500 Black, 42 Mountain-500 Black, 44 Mountain-500 Black, 48 Mountain-500 Black, 52 LL Bottom Bracket ML Bottom Bracket HL Bottom Bracket Road-750 Black, 44 Road-750 Black, 48 Road-750 Black, 52 AR-5381 BA-8327 BE-2349 BE-2908 BL-2036 CA-5965 CA-6738 CA-7457 CB-2903 CN-6137 CR-7833 CR-9981 CS-2812 DC-8732 DC-9824 DT-2377 EC-M092 EC-R098 EC-T209 FE-3760 FH-2981 FW-1000 FW-1200 FW-1400 FW-3400 FW-3800 FW-5160 FW-5800 FW-7160 FW-9160 FC-3654 FC-3982 FL-2301 GP-0982 GT-0820 GT-1209 GT-2908 HJ-1213 HJ-1220 HJ-1420 HJ-1428 HJ-3410 HJ-3416 HJ-3816 HJ-3824 HJ-5161 HJ-5162 HJ-5811 HJ-5818 HJ-7161 HJ-7162 HJ-9080 HJ-9161 HN-1024 HN-1032 HN-1213 HN-1220 HN-1224 HN-1420 HN-1428 HN-3410 HN-3416 HN-3816 HN-3824 HN-4402 HN-5161 HN-5162 HN-5400 HN-5811 HN-5818 HN-6320 HN-7161 HN-7162 HN-8320 HN-9161 HN-9168 HT-2981 HT-8019 HU-6280 HU-8998 KW-4091 LE-1000 LE-1200 LE-1201 LE-1400 LE-3800 LE-5160 LE-6000 LE-7160 LE-8000 LI-1000 LI-1200 LI-1201 LI-1400 LI-3800 LI-5160 LI-5800 LI-6000 LI-7160 LI-8000 LJ-1213 LJ-1220 LJ-1420 LJ-1428 LJ-3410 LJ-3416 LJ-3816 LJ-3824 LJ-5161 LJ-5162 LJ-5811 LJ-5818 LJ-7161 LJ-7162 LJ-9080 LJ-9161 LN-1024 LN-1032 LN-1213 LN-1220 LN-1224 LN-1420 LN-1428 LN-3410 LN-3416 LN-3816 LN-3824 LN-4400 LN-5161 LN-5162 LN-5400 LN-5811 LN-5818 LN-6320 LN-7161 LN-7162 LN-8320 LN-9080 LN-9161 LR-2398 LR-8520 LW-1000 LW-1200 LW-1201 LW-1400 LW-3400 LW-3800 LW-4000 LW-5160 LW-5800 LW-6000 LW-7160 LW-8000 LW-9160 MA-7075 MB-2024 MB-6061 MP-2066 MP-2503 MP-4960 MS-0253 MS-1256 MS-1981 MS-2259 MS-2341 MS-2348 MS-6061 MT-1000 NI-4127 NI-9522 PA-187B PA-361R PA-529S PA-632U PA-823Y PB-6109 RA-2345 RA-7490 RF-9198 RM-M464 RM-M692 RM-M823 RM-R436 RM-R600 RM-R800 RM-T801 SA-M198 SA-M237 SA-M687 SA-R127 SA-R430 SA-R522 SA-T467 SA-T612 SA-T872 SD-2342 SD-9872 SH-4562 SH-9312 SK-9283 SL-0931 SM-9087 SP-2981 SR-2098 SS-2985 ST-9828 TO-2301 TP-0923 RC-0291 FR-R92B-58 FR-R92R-58 HL-U509-R HL-U509 SO-B909-M SO-B909-L HL-U509-B CA-1098 LJ-0192-S LJ-0192-M LJ-0192-L LJ-0192-X FR-R92R-62 FR-R92R-44 FR-R92R-48 FR-R92R-52 FR-R92R-56 FR-R38B-58 FR-R38B-60 FR-R38B-62 FR-R38R-44 FR-R38R-48 FR-R38R-52 FR-R38R-58 FR-R38R-60 FR-R38R-62 FR-R72R-44 FR-R72R-48 FR-R72R-52 FR-R72R-58 FR-R72R-60 FR-R38B-44 FR-R38B-48 FR-R38B-52 FR-M94S-42 FR-M94S-44 FR-M94S-52 FR-M94S-46 FR-M94B-42 FR-M94B-44 FR-M94B-48 FR-M94B-46 FR-M94B-38 FR-M94S-38 BK-R93R-62 BK-R93R-44 BK-R93R-48 BK-R93R-52 BK-R93R-56 BK-R68R-58 BK-R68R-60 BK-R68R-44 BK-R68R-48 BK-R68R-52 BK-R50R-58 BK-R50R-60 BK-R50R-62 BK-R50R-44 BK-R50R-48 BK-R50R-52 BK-R50B-58 BK-R50B-60 BK-R50B-62 BK-R50B-44 BK-R50B-48 BK-R50B-52 BK-M82S-38 BK-M82S-42 BK-M82S-44 BK-M82S-48 BK-M82B-38 BK-M82B-42 BK-M82B-44 BK-M82B-48 BK-M68S-38 BK-M68S-42 BK-M68S-46 BK-M68B-38 BK-M68B-42 BK-M68B-46 BK-M47B-38 BK-M47B-40 BK-M47B-44 BK-M47B-48 BK-R89R-44 BK-R89R-48 BK-R89R-52 BK-R89R-58 BK-R89B-44 BK-R89B-48 BK-R89B-52 BK-R89B-58 BK-R64Y-38 BK-R64Y-40 BK-R64Y-42 BK-R64Y-44 BK-R64Y-48 FK-1639 FK-5136 FK-9939 HS-0296 HS-2451 HS-3479 HB-M243 HB-M763 HB-M918 HB-R504 HB-R720 HB-R956 FR-M63B-38 FW-M423 FW-M762 FW-M928 FW-R623 FW-R762 FW-R820 FW-T905 FR-R72Y-38 RW-M423 RW-M762 RW-M928 RW-R623 RW-R762 RW-R820 RW-T905 FR-M63B-40 FR-M63B-44 FR-M63B-48 FR-R72Y-40 FR-R72Y-42 FR-R72Y-44 FR-R72Y-48 FR-R92B-62 FR-R92B-44 FR-R92B-48 FR-R92B-52 SH-M897-S PA-T100 LO-C100 PU-0452 PU-M044 LT-T990 LT-H902 LT-H903 SH-M897-M SH-M897-L SH-M897-X TG-W091-S TG-W091-M TG-W091-L SB-M891-S SB-M891-M SB-M891-L GL-H102-S GL-H102-M GL-H102-L GL-F110-S GL-F110-M GL-F110-L VE-C304-S VE-C304-M VE-C304-L SH-W890-S SH-W890-M SH-W890-L WB-H098 BC-M005 BC-R205 PK-7098 SO-R809-M SO-R809-L RA-H123 CL-9009 FE-6654 ST-1401 HY-1023-70 SJ-0194-S SJ-0194-M SJ-0194-L SJ-0194-X FR-T98Y-60 FR-T67Y-62 FR-T98Y-46 FR-T98Y-50 FR-T98Y-54 FR-T98U-46 FR-T98U-50 FR-T98U-54 FR-T98U-60 RD-2308 FR-T67U-50 FR-T67U-54 FR-T67U-58 FR-T67U-62 FR-T67Y-44 FR-T67Y-50 FR-T67Y-54 FR-T67Y-58 FR-T67U-44 FR-M63S-40 FR-M63S-42 FR-M63S-46 RB-9231 SE-M236 SE-M798 SE-M940 SE-R581 SE-R908 SE-R995 SE-T312 SE-T762 SE-T924 FR-M21S-42 FR-M21S-44 FR-M21S-48 FR-M21S-52 TT-M928 TT-R982 TT-T092 FR-M21B-42 FR-M21B-44 FR-M21B-48 FR-M21B-52 TI-M267 TI-M602 TI-M823 TI-R092 TI-R628 TI-R982 TI-T723 PD-M282 PD-M340 PD-M562 PD-R347 PD-R563 PD-R853 PD-T852 FR-M63S-38 FR-M21B-40 FR-M21S-40 FD-2342 HB-T721 HB-T928 FB-9873 CS-4759 CS-6583 CS-9183 CH-0234 BK-T44U-60 BK-T79Y-46 BK-T79Y-50 BK-T79Y-54 BK-T79Y-60 BK-T18U-54 BK-T18U-58 BK-T18U-62 BK-T18Y-44 BK-T18Y-50 BK-T18Y-54 BK-T18Y-58 BK-T18Y-62 BK-T79U-46 BK-T79U-50 BK-T79U-54 BK-T79U-60 BK-T44U-46 BK-T44U-50 BK-T44U-54 BK-R79Y-40 BK-R79Y-42 BK-R79Y-44 BK-R79Y-48 BK-R19B-58 BK-T18U-44 BK-T18U-50 BK-M38S-38 BK-M38S-40 BK-M38S-42 BK-M38S-46 BK-M18S-40 BK-M18S-42 BK-M18S-44 BK-M18S-48 BK-M18S-52 BK-M18B-40 BK-M18B-42 BK-M18B-44 BK-M18B-48 BK-M18B-52 BB-7421 BB-8107 BB-9108 BK-R19B-44 BK-R19B-48 BK-R19B-52     ˇˇˇˇ    ˇˇˇˇBlack Silver Red White Blue Multi Yellow Grey Silver/Black Ë     Ù  <      d   Ó  X  w  -      K       ·zÆG±X@è¬ı(\?[@§p=
+◊;b@
+◊£p=çê@#J{É/,*@=õUü+@8gDio∞@È∑Ø?C@¸s◊%ã@Y∑— îi@tFîˆeg@ ë~˚:v@F%uöYá@shëÌ|Ü@ŸŒ˜Sá@ç(ÌæÿÖ@˜‰a°ñˆ†@æ0ô™•ã@®5Õ;Nk~@öû‡ù@¯¬d™`®ù@}?5^z∆ì@B>ËŸÏèì@m≈˛≤{≥Ç@L¶
+F%ªó@É/L¶ Kò@ƒ±.n£HÜ@è‰Ú“sP@–≥YıπzS@)Ìæ0yY@öû^.@Ö|–≥YµF@‘öÊß∞K@ü<,‘ö∆3@ÆG·z~;@–’VÏ/≥J@ú3¢¥7:g@ÒÙJYÜ¯:@Å&¬Üß3W@˙~jºt©`@üÕ™œ’˛B@uöí[@ÃHø}Qb@4¢¥7¯2X@≥Ísµèv@–≥YıπzC@-CÎ‚2Z@Pçón)b@˜_òL˝H@!ÙlVë^@"éuq—c@‡æú32[@jMÛæ8@     »I@     †$@=,‘öÊ} @=,‘öÊù$@ÚAœf@=,‘öÊ›,@jMÛé2@jMÛÓ>@µ¶yèB@oÅ≈èQ"@÷≈m4ÄW/@9¥»væø7@ÈH.ˇ!-:@ïeàc]‹˝?¿[ AÒ„@ıπ⁄ä˝Â
+@úƒ ∞rhÎ?q=
+◊£pF@ì©ÇQ…@7âA`Âp @œ˜S„•ªM@åπk	˘ê4@¿[ A…D@HP¸ÛÕÇ@ÃÓ…√B˚h@◊ÚAœˆJ@n£ºÏh@¯S„•õ§G@L¶
+F%(@‚X∑—`1@:íÀH_7@¨ã€h b@ˇ!˝ˆu‡˜?ÖÎQ∏a@®5Õ;N±"@Ê?§ﬂæn&@ÆG·z.*@HP¸ @4Ä∑@Çb(@s◊ÚAØ%@—ë\˛C˙1@≈ ∞rhë;@Ìû<,‘˙A@»òªñêOD@X9¥»v4@ŒQ⁄TD@’	h"lx\@√”+ezf@öwú¢#˘!@Âa°÷4ôá@¨ã€h¿'ó@,‘öÊ◊|@◊£p=
+Íê@µ7¯¬dzu@MÛéSt<z@∆‹µÑ|Cs@‹◊ÅsFir@)À«∫¯7@Ô…√B≠yF@ÒÙJYÜ¯J@    {ÆG·™`@ÆG·zdb@=
+◊£pùh@     ^ñ@ÖÎQ∏~A@      #@{ÆG·˙!@ÖÎQ∏˛H@ÏQ∏Öu@q=
+◊£ñÇ@     Rï@fffffï@◊£p=äÙ´@)\è¬ı«ñ@R∏ÖÎwà@ÆG·˙è™@ÆG·˙]™@ÆG·˙¢@ÆG·˙Ì°@)\è¬ıﬂê@3333≥£@)\è¬ıÅë@◊£p=
+áb@H·zÆÔe@H·zÆØl@öôôôôA@√ı(\èíY@ÖÎQ∏._@ÖÎQ∏EF@ˆ(\è¬ıN@·zÆG^@\è¬ı(Ãu@è¬ı(\_N@ÕÃÃÃÃ j@=
+◊£p√r@\è¬ı(dU@∏ÖÎQo@)\è¬ı†t@∏ÖÎQ@k@H·zÆÔU@ÕÃÃÃÃÄm@=
+◊£pst@\è¬ı($\@\è¬ı(6q@)\è¬ıPv@∏ÖÎQ†n@ÖÎQ∏˛M@}      =
+◊£p˝3@=
+◊£p˝8@{ÆG·˙+@ÖÎQ∏~F@è¬ı(\øR@è¬ı(\V@=
+◊£p}8@ÖÎQ∏˛B@     ¿O@è¬ı(\Q@ˆ(\è¬ı@{ÆG·˙#@R∏ÖÎQ@x   ÕÃÃÃÃÃ@{ÆG·˙5@ü   ÖÎQ∏~K@ÖÎQ∏˛J@·zÆG_è@ÖÎQ∏÷t@=
+◊£p]^@=
+◊£p¡v@     †Z@ÖÎQ∏;@R∏ÖÎëC@R∏ÖÎQJ@ÕÃÃÃÃÄp@ÏQ∏ÖÎ@·zÆG9o@=
+◊£p˝=@#   =
+◊£p}5@ÕÃÃÃÃL@@=
+◊£p˝<@ÖÎQ∏>D@ÏQ∏ÖO@è¬ı(\?T@è¬ı(\ﬂV@ÏQ∏ÖG@ÆG·z‰V@§p=
+◊p@§p=
+◊Oy@=
+◊£p=4@fffff˚í@q=
+◊#†¢@ÕÃÃÃÃ2á@)\è¬ıìö@R∏ÖÎﬂÄ@R∏ÖÎà@R∏ÖÎßÅ@è¬ı(\OY@è¬ı(\_^@:   58 M L S XL >   62 ,   44 0   48 4   52 8   56 <   60 *   42 .   46 &   38 (   40 F   70 2   50 6   54 CM G LB ≥  ¬  ê  Ω  Ã  ÏQ∏ÖÎ@ffffff@ˆ(\è¬ı @H·zÆG@öôôôôô@ÆG·zÆ@◊£p=
+◊@      @è¬ı(\è@·zÆG·@333333@√ı(\è¬@ÆG·z@
+◊£p=
+@√ı(\è¬@ÆG·z@ffffff@∏ÖÎQ∏@q=
+◊£p@   
+◊£p=ä+@√ı(\èB,@◊£p=
+◊,@\è¬ı(\-@
+◊£p= 1@fffffÊ1@ÖÎQ∏≈0@·zÆG!1@ÏQ∏Ök1@
+◊£p= 3@fffffÊ3@   ÖÎQ∏≈2@·zÆG!3@ÏQ∏Ök3@öôôôôY4@ÖÎQ∏≈4@·zÆG!5@ÏQ∏Ök5@öôôôôY7@ÖÎQ∏≈7@·zÆG!8@öôôôôY9@ÖÎQ∏≈9@·zÆG!:@ÏQ∏Ök:@
+◊£p=ä-@√ı(\èB.@◊£p=
+◊.@ÆG·zî/@\è¬ı(\/@öôôôôY1@ÖÎQ∏≈1@·zÆG!2@ÏQ∏Ök2@ÆG·zÆ2@◊£p=
+◊@Ñ  R  ä  q=
+◊£p@  Ë  z  )\è¬ı(@{ÆG·z@ÕÃÃÃÃÃ@∏ÖÎQ∏@§p=
+◊£@öôôôôô	@ÆG·zÆ@   R∏ÖÎQ@◊   ÕÃÃÃÃÃ@ÖÎQ∏	@H·zÆG	@)\è¬ı(@=  \è¬ı(\@⁄   π   Ω   ®   ï   
+◊£p=
+@X   X  {  ?  fffffÊ;@·zÆG!9@ÏQ∏Ök9@ÆG·zÆ9@fffffÊ9@ÆG·zÆ=@fffffÊ=@   ÖÎQ∏≈<@·zÆG!=@ÏQ∏Ök=@
+◊£p= =@·zÆG!;@ÏQ∏Ök;@ÆG·zÆ;@33333≥.@
+◊£p=ä/@·zÆG!0@ÏQ∏Ök0@
+◊£p= 4@öôôôôY:@ÖÎQ∏≈:@öôôôôY;@ÖÎQ∏≈;@·zÆG!<@ÏQ∏Ök<@ÆG·zÆ<@ﬂ   ™   ÖÎQ∏≈3@·zÆG!4@ÏQ∏Ök4@             R S M T L M H U W M                         
+               #   "   $   !                  %                      	                           !            	                                 h   i   j   ;   <   =   4   6   7   8   9   :      *   -   .   1   2   3   ,      {   |   }   ~   M   N   +         x   s   t   u   l   m   n   &               %   o   p   q   r      v   w   y   z   k          
+      Ä   O   P   Q   R   S   T   B   A   C      \   ]   ^   U   V   W   X   Y   Z   [   >   ?   @   D   E   F   5   g   /   0   f   c   d   e   b   #   "   $               _   `   a   kå  —ê  >í  ´ì  =í  ™ì  {694215B7-08F7-4C0D-ACB1-D734BA44C0C8} {58AE3C20-4F3A-4749-A7D4-D568806CC537} {9C21AED2-5BFA-4F18-BCB8-F11638DC2E4E} {ECFED6CB-51FF-49B5-B06C-7D8AC834DB8B} {E73E9750-603B-4131-89F5-3DD15ED5FF80} {3C9D10B7-A6B2-4774-9963-C19DCEE72FEA} {EABB9A92-FA07-4EAB-8955-F0517B4A4CA7} {7D3FD384-4F29-484B-86FA-4206E276FE58} {7BE38E48-B7D6-4486-888E-F53C26735101} {3314B1D7-EF69-4431-B6DD-DC75268BD5DF} {F0AC2C4D-1A1F-4E3C-B4D9-68AEA0EC1CE4} {51A32CA6-65A1-4C31-AF2B-D9E4F5D631D4} {FE0678ED-AEF2-4C58-A450-8151CC24DDD8} {05CE123C-A402-478E-AE9B-75D7727AEAAD} {A56851F9-1CD7-4E2F-8779-2E773E1B5209} {1DAD47DD-E259-42B8-B8B4-15A0B7D21B2F} {6070B1EA-59B7-4F8B-950F-2BE07D00449D} {88399D13-719E-4545-81D6-F0650F372FA2} {6903CE24-D0CE-4191-9198-4231DE37A929} {C91D602E-DA52-43D2-BD7E-EB110A9392B9} {D864879A-E8B1-4F7B-BAFA-1F136089C2C8} {A3F2FA3A-22E1-43D8-A131-A9B89C32D8EA} {331ADDEC-E9B9-4A7E-9324-42069C2DCDC4} {84A3473E-AE26-4A21-81B9-60BB418A79B2} {0AE4CE60-5242-48F5-ADA1-3013FF45F969} {2C1C58B4-234C-4B3A-8C8E-84524AC05EEA} {590C2C3F-A8B6-42B5-9412-D655E37F0EAE} {1B73F5FE-AB85-49FC-99AD-0500CEBDA91D} {D182CF18-4DDF-429B-A0DF-DE1CFC92622D} {7E55F64D-EA3C-45FF-BE72-F7F7B9D61A79} {1CBFA85B-5C9B-4B58-9C17-95238215D926} {01C901E3-4323-48ED-AB9E-9BFDA28BDEF6} {88ED2E08-E775-4915-B506-831600B773FD} {6A89205B-90C3-4997-8C63-BC6A5EBC752D} {32C82181-1969-4660-AE04-A02D51994EC1} {09343E22-2494-4279-9F32-5D961A0FBFEA} {8E5B2BF7-81DD-4454-B75E-D9AE2A6FBD26} {A63AFF3C-4143-4016-BC99-D3F80EC1ADE5} {A1AE0C6D-92A5-4FDA-B33B-1301E83EFE5B} {E33E8C4C-282A-4D1F-91E7-E9969CF7134F} {A992684F-4642-4856-A817-2C0740AE8C55} {B9D9A30D-CB07-422D-A312-F0535575337E} {0EC8F653-24C9-41B6-86F5-39C1789DB580} {94506C9D-5991-46A7-82EA-00E05D8D9B9C} {71E984C6-1D11-4CF2-BAEE-6C8DF494BDAD} {EFC09CDB-ECD5-4DB5-9E27-277DDA6D7F50} {0A0C93AA-D06C-48AA-99EB-20F2C8A6D6C4} {A2728648-9517-4DEC-8606-D7D98ECD1E91} {0A7AD37C-3696-4844-8633-9FDDCD5FCEFC} {ACBB1DE1-680C-4034-A8C5-3C6B01E57AA7} {A0DA8F8F-45FB-4E62-AB14-AA229087DE1E} {DB99CBCD-F18D-4979-8DCF-1012F3B1CB15} {EC2E54F5-9D07-4C26-B969-40F835395BE3} {F2F3A14C-DF15-4957-966D-55E5FCAD1161} {E73E44DD-F0B7-45D4-9066-E49F1B1FE7D0} {2B2A5641-BFFE-4079-B9F0-8BF355BC3996} {F70BBECD-5BE7-4EE9-A9E7-15786E622BA9} {BA3631D1-33D6-4A2F-8413-758BFDA6F9C2} {B478B33A-1FD5-4DB6-B99A-EB3B2A7C1623} {DA46D979-59DF-456D-B5AE-E7E89FC589DF} {2F457404-197D-4DDF-9868-A3AAD1B32D6B} {5F02449E-96E5-4FC8-ADE0-8A9A7F533624} {32C97696-7C3D-4793-A54B-3D73200BADBC} {8F0902D0-274D-4A4B-8FDE-E37F53B2AB29} {57456F8C-CB78-45EC-B9B8-21A9BE5C12F5} {955811B4-2F17-48F0-A8B4-0C96CBA4AA6D} {7D4BAD17-374F-4281-9AE5-49ABC3FE585D} {17C4B7BA-8574-4EC7-BD3B-7A51ABA61F69} {B4E990B7-B3F7-4F97-8F98-CE373833ADB4} {433EE702-E028-4630-895C-8CDBD0F1FD89} {EE76FAE0-161E-409C-A6F5-837B5B8B344D} {EB10B88C-5351-4C06-AF51-116BAA48A2C8} {35E28755-E8F0-47BE-A8BE-A20836DBE28D} {69AB8D5E-6101-4203-81B1-794E923782EA} {39D42384-66F6-4CCD-B471-0589FC3FC576} {B63F827E-9055-4678-9E90-4FFD8D06D4D4} {9F88C58E-5CFA-46C9-8994-DA4F3FFE92ED} {B047C048-B4FB-4F80-94BC-C5FC00A6F77F} {AB332DDA-DDA5-44AD-8C50-34FFACEFFA8E} {D59403A3-D19E-4803-BDA2-B436A6416FDA} {43024784-2741-4CAB-A6DC-8050CE507F2E} {763412F0-6D53-43E2-B371-DCBED69F5E98} {89B6E84F-5C08-4CD9-B803-01F2CE24E417} {3330A721-E8CB-4E67-8D27-300DB68C2395} {39314098-768B-49F9-A777-AF2E3BB06B17} {93F7BC73-BD22-45A0-9F2E-A11932342E6B} {DC5F4CB0-A599-42CD-A96F-E9F01BC1DACC} {802B7687-BC74-43F8-98AE-2112166FACA7} {02C48826-21AD-41F3-85A6-BC9A85A4DCE4} {502A2A3D-CD72-43AD-8FB6-77505187EDF4} {F1168C45-E4D2-4C37-ADAD-B76EAF402B71} {7F7413BB-BAD2-47E4-9BC4-D98B194BE35D} {4F040109-8332-4FCF-8084-57E6D8C49283} {0C02F2CC-BDB4-4794-A4F9-0EB33F7545C2} {3C2AC5BC-3F49-4FA4-8340-BC4CDA983F46} {7F175DFE-1669-4EE9-8EEB-7B55FCE9961C} {C8323EEC-BDB2-4933-B3C6-24287638AD56} {71F8232D-2B59-41AC-99A1-F5EA197671B5} {E2F03586-02E8-4CD9-A342-1A8D65D393BD} {97741A88-92A1-4E72-B0AA-BCB198A1C378} {7DA2613B-3347-4072-A1DC-943ADA161D7F} {A88F15BE-2719-4741-93A4-2D96EF3712EB} {48461E5D-D58A-47E5-8BA3-CE4430FCA611} {36187EB6-AD84-47B7-A55E-2941D3435FE2} {99215648-AFE8-4556-BC80-B6C62AE74FC8} {B4FC4C32-049C-417F-BBB0-F19CDFD64252} {A57B7915-2E65-49DE-87BA-ACD007C55ADB} {5ABD940C-D61F-4108-8312-0EA97E469613} {9883496F-4785-4BFC-8AF3-C357347B9F89} {8C5EE683-D93C-4F25-9454-22FAA4C31365} {38E4A447-3D3C-4087-ABAD-97F006525B52} {DCE24B6C-76D8-4934-A4F6-C934364943EA} {344AD07C-CCA5-4374-A3F3-8A7E0A1D9916} {B2508CF2-C64F-493D-9DB4-0D6601AF1F73} {5D3E589F-4584-406B-B9CC-3C8C060CB9A5} {64169A28-161C-4737-B724-F42FFD99DE80} {EB4C1D34-4816-4130-BB30-07B4DE4072B6} {98CCBB38-4683-486E-BBFE-CBBE4EA63C03} {BBFD88F8-28C5-44EE-B625-52E882393DFC} {92DC4BA8-A052-45DF-83EC-226F050F876B} {D583D825-C707-4529-B6F2-ABFFA21B81EC} {E91C3DC2-C99B-4D01-8108-5DDE3C87830A} {06534A20-4C00-4824-8BBA-B4E3A5724D93} {1E4FA4EC-367E-4D8D-88B4-6CD34D1CFB89} {AFA814C8-8EC8-49DB-9FEE-A291197A8FE9} {9A751F85-7130-4562-9F22-DB9CAB6E5BBC} {06BE8347-45C1-4C40-AFCB-6AB34AD135FB} {1DC29704-E0E0-4EF5-B581-4A524730C448} {612C26C7-6018-4050-B628-8B2D2E6841FA} {5BCC4558-6C16-48F1-92F0-FD2EEFB17306} {53AD147D-C16D-4A8C-B086-625A31405574} {2749030E-49B7-4B24-8D47-FBCF194ABA38} {E10A7B34-87F5-42CD-88B3-27A3D8E16B18} {AA5071EB-2145-4D08-9D33-B9D2BA9E1493} {1E96B03D-DC07-4A98-BC24-BF5B24C393E5} {CE04DE2B-4ECA-4203-A108-B7D92FF0E96E} {41BD9389-8B22-4A35-9A2C-233D39ADA7EA} {5986504B-22A0-4E74-A137-C7CF99A8216F} {A420963F-92FD-4CD4-8531-6926E4162C41} {AECA59DA-B61C-4976-8316-97E14CD4EFF1} {DBB962BF-0603-4095-959B-5BA9C74FBD32} {A3EE3BC5-73C5-45F3-A952-9991D038DD9C} {ECAED08D-2CF5-4D81-A4ED-8369E25AF227} {A2212BAB-AF58-41A5-A659-A6141C8967CA} {9092F2E1-3637-4669-8565-55404A55750E} {3CB31F4A-C61C-408C-BE1E-48BEE412E511} {900D26E6-21A0-427D-B43C-173F6DCB2045} {5402EA37-29DF-47FF-9FC7-867D60594C48} {99357255-E66B-458C-AB2E-6F68EF5452D2} {7BC9D58E-3E62-481F-8343-BEB0883B3ECF} {5F201424-9E6A-4F8D-9C2C-30777E27D64F} {F9426FB2-1E68-464E-BF32-615026E0249E} {AC007B7F-73B7-4623-8150-02444C5EC023} {639D8448-B427-47B1-9E5B-0E5090A27632} {E876E239-7EC2-45C8-BA4B-B9CEACB379A6} {8B5429CE-7876-44B3-9332-BAF78A238B36} {2A14F60E-3827-49BA-AF13-466DBC30C5BA} {0773A2C9-F47F-429E-814A-25B2E08C128A} {242389BE-DDE0-42A1-85D9-F99FDC981336} {8B7E90E5-7785-455E-BC7C-E962F18C6848} {8BB96DFB-23AA-4877-9C5E-866BB18FACC7} {9074E00D-005B-450E-9C92-6667782E8108} {A9539885-0CEE-4AA0-9072-8DB1D34A16DB} {3CB3CF7D-AB8E-44A3-B7E9-73149F5EC29F} {2A2C555D-328D-4299-BD83-591D0762DF62} {64844011-A1C3-4F8F-9CAA-9C8D214ECC12} {3B2FEBC6-C76C-4A56-9CF7-8AF5B76E24EE} {D2177B6C-3352-43F0-9A41-719754DD280C} {88310F73-AB0A-41A2-8597-936F192B7D12} {88A7B897-6FF5-4CA2-B68A-6EA0E86F92B9} {DF20E514-3D47-491B-9454-0911EC3F7D29} {4C568357-5D21-4AD4-BB85-BB5519B3B50C} {FA81E47D-7333-49C2-809B-308171CA2FB1} {25A73761-AE90-49D3-8D1D-DD7858DB4704} {1C8ADB43-9FE8-44A6-B949-8AF33CE9486E} {F1694C24-DFAB-4C92-BC66-6E717DB24EA8} {874C800E-334D-4A3C-8D3A-1E872D5B2A1B} {35CE3995-9DD2-40E2-98B8-275931AC2D76} {1C850499-38ED-4C2D-8665-7EDB6A7CE93D} {B2CC7DFB-783D-4587-88C0-2712A538A5B2} {733FD04D-322F-44F5-BEEC-F326189D1CE6} {9FA4A3B5-D396-48D4-ADFC-B573BC4A800A} {C2770757-B258-4EEC-A811-6856FAF87437} {80108059-0002-4253-A805-53A2324C33A4} {CD9B5C44-FB31-4E0F-9905-3B2086966CC5} {4852DB13-308A-4893-AAFA-390A0DFE9F12} {FCFC0A4F-4563-4E0B-BFF4-5DDCFE3A9273} {D3C8AE4C-A1BE-448D-BF58-6ECBF36AFA0B} {9E18ADAB-B9C7-45B1-BD95-1805EC4F297D} {F5A30B8D-F35B-43F2-83A0-F7F6B51F6241} {AD109395-FDA9-4C2A-96F1-515CCDE3D9F4} {7B52EE2A-7100-4A39-A0AF-C89012DA6EF8} {AF3D83BA-4B8E-4072-817F-E6B095A1C879} {85B9A3DE-000C-4351-9494-05796689C216} {8C471BCA-A735-4087-AD50-90EDE0AC1A1B} {D2BD1F55-2CD4-4998-89FA-28FF2E28DE2C} {6CE0661D-BA1F-4012-B785-55165B3B241A} {AE7BCDA7-E836-4F68-9E61-745F27F9AA3E} {D215A3AE-AAF2-4CB0-9D20-3758AAD078E2} {5AABB729-343B-4084-A235-CCB3DA9F29E7} {4A898B1E-9A3B-4BEB-9873-A7465934051A} {1173306E-B616-4C4A-B715-4E0A483BA2B5} {9B4CEB84-4E84-43F3-B326-9B7F22905363} {F3B140A1-B139-4BB5-B144-1B7CBBEE6C9A} {20C2C611-DFFC-49B5-99CF-D89BDD3A91CE} {41F5388B-7253-4002-BCC6-B2A50920D11F} {4C0BAD8E-066B-46B8-BFE9-DA61539606E8} {13DF62B2-8A7B-47D5-9084-F1172C4779E4} {912B03EA-4447-48C8-85DA-09B80AB26340} {43DD68D6-14A4-461F-9069-55309D90EA7E} {9540FF17-2712-4C90-A3D1-8CE5568B2462} {2E1EF41A-C08A-4FF6-8ADA-BDE58B64A712} {A25A44FB-C2DE-4268-958F-110B8D7621E2} {18F95F47-1540-4E02-8F1F-CC1BCB6828D0} {161C035E-21B3-4E14-8E44-AF508F35D80A} {FD7C0858-4179-48C2-865B-ABD5DFC7BC1D} {B9EDE243-A6F4-4629-B1D4-FFE1AEDC6DE7} {FD449C82-A259-4FAE-8584-6CA0255FAF68} {6A290063-A0CF-432A-8110-2EA0FDA14308} {34CF5EF5-C077-4EA0-914A-084814D5CBD5} {6EC47EC9-C041-4DDA-B686-2125D539CE9B} {052E4F8B-0A2A-46B2-9F42-10FEBCFAE416} {A88D3B54-2CAE-43F2-8C6E-EA1D97B46A7C} {07BEFC9A-7634-402B-B234-D7797733BAAF} {FCFEA68F-310E-4E6E-9F99-BB17D011EBAE} {56C85873-4993-41B4-8096-1067CFD7E4BD} {2140F256-F705-4D67-975D-32DE03265838} {AA95E2A5-E7C4-4B74-B1EA-B52EE3B51537} {5247BE33-50BF-4527-8A30-A39AAE500A8E} {137D319D-44AD-42B2-AB61-60B9CE52B5F2} {35213547-275F-4767-805D-C8A4B8E13745} {C455E0B3-D716-419D-ABF0-7E03EFDD2E26} {799A56FF-5AD2-41B3-BFAC-528B477AD129} {1784BB14-D1F5-4B24-92DA-9127AD179302} {7E73AA1F-8569-4D87-9F80-AC2E513E0803} {459E041C-3234-409E-B4CD-81728F8A2398} {B673189C-C042-413B-8194-73BC44B0492C} {55EA276B-82D8-4CCB-9AB1-9B1B75B15A83} {DF4CE1E2-BA9A-4657-B999-CCFA6C55D9C1} {B2E48E8C-63A5-469A-BA4C-4F5EBB1104A4} {C9967889-F490-4A66-943A-BCE432E938D8} {3B5F29B6-A441-4FF7-A0FA-FAD10E2CEB4C} {18FC5D72-A012-4DC7-BB35-0D01A84D0219} {8AE32663-8D6F-457D-8343-5B181FEC43A7} {1909C60C-C490-411D-B3E6-12DDD7832482} {B181EC1F-CA20-4724-B2EB-15F3E455142E} {A189D86E-D923-4336-B13D-A5DB6F426540} {27DB28F8-5AB8-4091-B94E-6F1B2D8E7AB0} {CB443286-6B25-409F-A10B-1AD4EEB4BD4E} {1FEE0573-6676-432D-8D6D-41BA9FAA5865} {50ABEBCB-451E-42B9-8DBB-E5C4A34470E9} {0C548577-3171-4CE2-B9A0-1ED526849DE8} {F246ACAA-A80B-40EC-9208-02EDEF885129} {BC621E1F-2553-4FDC-B22E-5E44A9003569} {C19E1136-5DA4-4B40-8758-54A85D7EA494} {D10B7CC1-455E-435B-A08F-EC5B1C5776E9} {5E085BA0-3CD5-487F-85BB-79ED1C701F23} {30819B88-F0D3-4E7A-8105-19F6FAC2CEFB} {40D5EFFA-C0C4-479F-AF66-5F1BF8ED3BFB} {181A90CB-3678-490E-8418-78F73FB5343D} {F8B5E26A-3D33-4E39-B500-CC21A133062E} {C72C9978-0B04-46B3-9DE6-948FECA1C86E} {040A4B7D-4060-4507-AA92-7508B434797E} {6711D6BC-664F-4890-9F69-AF1DE321D055} {664867E5-4AB3-4783-96F9-42EFDE92F49B} {1DA14E09-6D71-4E2A-9EE9-1BDFDFD8A109} {F247AAAE-12E3-4048-A37B-CCE4A8999E81} {3DA5FA6E-9E0F-4896-AC10-948C27F4EB79} {07CFE1EA-8A37-4D2A-835F-BC8D37E564AF} {74645B12-3CE9-49A6-BD96-2CD814B37420} {A2DB196D-6640-49EA-A84F-2E87CA6F50C6} {C82A8309-63D3-4C0C-AD71-E91272397095} {11D563AC-115C-4F0D-A1E5-E946EEE8B38B} {A7E2179E-137C-497E-A5E6-C9EA64935FB0} {136E2865-E0DA-4624-963A-31349279AB1A} {CA74B54E-FC30-4464-8B83-019BFD1B2DBB} {BBFFF5A5-4BDC-49A9-A5AD-7584ADFFE808} {155FD77E-D6D6-43F0-8A5B-4A8305EB45CD} {BA5551DF-C9EE-4B43-B3CA-8C19D0F9384D} {DEA33347-FCD3-4346-AA0F-068CD6B3AD06} {02935111-A546-4C6D-941F-BE12D42C158E} {7920BC3B-8FD4-4610-93D2-E693A66B6474} {1B486300-7E64-4C5D-A9BA-A8368E20C5A0} {3A45D835-ABAE-4806-AC03-C53ABCD3B974} {CE4849B4-56E6-4B50-808B-9BDE67CC4704} {20799030-420C-496A-9922-09189C2B457E} {82CB8F9B-B8BB-4841-98D3-BCDB807C4DD8} {2B0AF5B9-7571-4621-B760-47DF599F9650} {33F42284-E216-4B98-BA48-B4EE18A01FA0} {F06C2CBF-0901-4C08-80ED-FB4E87171B3B} {580D4322-BE03-4C91-83D2-EE33EC6008AB} {07C2A548-0452-47B4-9DCE-6EDB0A30C85E} {16078DBE-388D-4C18-AA8F-0C8F48035468} {0AA71AD6-AFAF-43C6-9745-35D815B50A5B} {115DDADE-70E3-43F9-80DC-638DAEA271C4} {C9FD1DF4-9512-420A-B379-067108033B75} {DF629C11-8D8B-4774-9D52-ECB64DC95212} {1FF419B5-52AF-4F7E-AEAE-4FEC5E99DE35} {9D165DDF-8F5D-41C7-9BB8-13F41A3D1F62} {74FE3957-CBC3-450A-AB92-849BD13530E2} {1C530FE8-A169-4ADC-B3DC-B11A48245E63} {AAD81532-A572-49A5-83C3-DFA9E3B4FEA6} {A35A1C35-C128-4697-951E-4199062E78F3} {A359AB09-16F2-4726-A60F-0DFDB1C9527E} {0A7028FB-FF06-4D38-AAA1-B64816278165} {C90CC877-804C-4CE7-AFC3-4C8791A13DFB} {FB8502BE-07EB-4134-AB06-C3A9959A52AE} {F5FA4E2F-B976-48A4-BF79-85632F697D2E} {553229B3-1AD9-4A71-A21C-2AF4332CFCE9} {BB6BD7B3-A34D-4D64-822E-781FA6838E19} {23B5D52B-8C29-4059-B899-75C53B5EE2E6} {12E4D5E8-79ED-4BCB-A532-6275D1A93417} {B59B7BF2-7AFC-4A74-B063-F942F1E0DA19} {AE6020DF-D9C9-4D34-9795-1F80E6BBF5A5} {6AA0F921-0F09-4F99-8D3C-335946873553} {ACDAE407-B40E-435E-8E84-1BFC33013E81} {33FA1A03-38D6-405E-BE9B-EEA92F3D204F} {5C5327B9-AD2E-4C33-8D74-EDF49E0C2DD8} {0D879312-A7D3-441D-9D23-B6550BAB3814} {D7B1D161-182E-44F6-A9FF-9C1EBA76613B} {5E3E5033-9A77-4DCA-8B7F-DFED78EFA08A} {3C8FFFF6-A8DC-45A3-963B-A6284CED7596} {9E66DE78-DECB-438A-B9A9-023C773C60A2} {6EA94FBF-B9AA-43FC-84E8-91D508DDE751} {727A3CD5-8D40-4884-A7E4-DFD3FFDEB164} {8D1CDB07-4FA1-4AC1-840F-A16C3DCA5009} {22976FA7-0AD0-40F9-B4F9-BA10279EA1A3} {E6C39F58-995F-4786-A309-DF3812D8B30F} {B2F7CF9B-A7BF-49AB-9CCA-9F6E791CD693} {35D02EDC-1120-41FB-B5DF-8655A93B3353} {78D01117-8DCD-465F-9DC7-94A2CDC35582} {CF739F9A-0AF0-4810-B229-C431A31D7779} {8F262A37-43AA-4AD5-AE1F-8BD6967D8E9B} {30D2254D-E26D-4586-B4C5-E8CCB8A059B8} {AED1C9C4-C139-45D2-B38E-0A0A9F518665} {3F2135D4-EC5F-4E30-BDE8-5444518F0637} {C2009B69-F15A-47EC-B710-1809D299318A} {22DF26F2-60BC-493E-A14A-5500633E9F7E} {207B54DA-5404-415D-8578-9A45082E3BF1} {A0FAD492-AC24-4FCF-8D2A-D21D06386AE1} {8487BFE0-2138-471E-9C6D-FDB3A67E7D86} {5DCE9C8C-FB94-46F8-B826-11658F6A3682} {E4902656-A4BC-4B08-9D47-4F3DA0FD76C3} {557B603B-407B-41A4-AE34-4F7747866DBA} {0ED082B3-FBBA-43AF-9149-8741B9FC78C8} {34B08C1F-99D1-43C4-8EF7-2CD754B6665D} {56334FFF-91D4-495E-BF98-933BC1010F23} {56FFD7B9-1014-4640-B1BD-B2649589B4D7} {AAF7A076-9EE3-46BF-A69F-414D847E858B} {57169F80-FAFB-4678-8F51-FE1F131D0C83} {3C617B87-50A5-434C-A0D3-22314B7027EE} {417DB6CB-F38F-4B0D-87E7-E1EBF7456C3A} {FC362C1A-4B9C-4D5F-A6D3-0775846C61F0} {DB37B435-74B9-43D3-B363-ABBEAD107BC4} {714184C5-669B-4CF1-A802-30E7B1EA7722} {BD3FFE40-FE2E-44CB-A4E0-81786C3A751F} {7DE86C98-4F5B-4155-8572-C977F14EBAEB} {4D8E186C-B8C9-4C64-B411-4995DD87E316} {E378C2F3-54F6-4EA9-B049-E8BB32B5BDFD} {9F60AF1E-4C11-4E90-BAEA-48E834E8B4C2} {E0CBEC04-F4FC-450F-9780-F8EA7691FEBD} {E1DF75A4-9986-489E-A5DE-AD3DA824EB5E} {9E1DB5C3-539D-4061-9433-D762DC195CD8} {9D458FD5-392D-4AB1-AFEF-6A5548E48858} {FA710215-925F-4959-81DF-538E72A6A255} {76FAC097-1FB3-456B-8FB9-2C7A613771B4} {1084221E-1890-443E-9D87-AFCAD6358355} {6116F9D4-8A1D-4022-A642-9C445C197203} {EB423EF3-409D-46FE-B35B-D69970820314} {2E52F96E-64A1-4069-911C-E3FD6E094A1E} {3211F5A8-B6C4-48BD-9AA4-D69CB40D97DD} {22616FD2-B99F-4F7D-ACF6-33DFF66D42D2} {968E3610-E583-42E8-8AB6-484A799B1774} {1A66B244-5CA0-4153-B539-AE048D14FAEC} {834E8D1A-69A7-4C42-8B68-FA08D9EC9E5B} {684491DE-63F8-4632-90E3-36773C4E63BD} {601B1FE8-D4D0-4CFB-9379-29481CC05291} {36E638E4-68DF-411B-930A-DAAD57221AA6} {B9C7EB0A-1DD1-4A1D-B4C3-1DAD83A8EA7E} {C0A16305-74B7-4FAE-B5C9-3E8BD0E44762} {7A0C4BBD-9679-4F59-9EBC-9DAF3439A38A} {3C40B5AD-E328-4715-88A7-EC3220F02ACF} {E6E76C7F-C145-4CAD-A9E8-B1E4E845A2C0} {C7BB564B-A637-40F5-B21B-CBF7E4F713BE} {A99D90C0-05E2-4E44-AD90-C55C9F0784DE} {05B2E20F-2399-4CB3-9B49-B28D6649C104} {BBBF003B-367D-4D71-AF71-10F50B6234A0} {2D9F59B8-9F24-46EB-98AD-553E48BB9DB9} {906D42F6-C21F-4D20-B528-02FFDB55FD1E} {C49679BD-96A9-4176-A7ED-5BC6D6444647} {8D4D52A6-8ABC-4C05-BE4D-C067FAF1A64E} {137675A7-34CD-4B7A-ABE1-4E0EEB79B65D} {105EC6E5-30C5-4FE3-A08B-CB324C85323D} {12B1F317-C39B-48D0-B1A7-8018C60AEA53} {8BBD3437-A58B-41A0-9503-FC14B23E7678} {C4244F0C-ABCE-451B-A895-83C0E6D1F448} {E9AAE947-6BC3-4909-8937-3E1CDCEC8A8F} {B01951A4-A581-4D10-9DC2-515DA180F1B8} {5EBFCF02-4E3E-443A-AD60-5AEEF28DAC76} {B78ECCCA-FA88-4071-9110-410585127E46} {0FF799C9-DD11-4B81-AAF7-65410017405B} {CCD4FA47-7194-4BD0-909B-1FA4BD7916A7} {08A211A5-DCD2-42D0-9276-64D92D4890A6} {109CB7BC-6EC6-4A36-85C8-55B843B2AB12} {285FD682-C647-49D1-B8F3-368A43C9CDA0} {2536E3B2-D4DA-49E6-965A-F612C2C8914F} {5D17FF1C-F50E-438F-A4E9-7C400FB762E7} {E9C17BE7-F4DC-465E-AB73-C0198F37BFDD} {A7DDE43E-F7D5-4075-A0C1-C866AD7AA154} {D4A2FCAD-1E63-4EBD-863C-5A7C48D5B8D9} {82025C63-7B28-412D-92C1-408E0E6AE646} {5946F163-93F0-4141-B17E-55D9778CC274} {4DAB53C5-31E7-47D6-A5A0-940F8D4DAD22} {30222244-0FD8-4D28-8448-F2E658BF52BD} {A96A5024-87DE-488A-BF81-BC0C81F6CD18} {31B9BC62-792B-4E7A-A24D-411DC76E0271} {49845AFE-A8CC-4354-A5D4-09D35BF7FB9E} {2BEFE629-4B2A-41A1-A009-DF13EAD69105} {7874A1D6-7A5B-412F-A2EB-C2F457B9603D} {072ACB72-7796-4BD0-9BBB-6EFC29AC336C} {0E158724-934D-4A64-991F-94FEC00BDEA8} {37BD4D2B-346B-4C6B-8F3F-85C084282529} {393A4D00-7428-41F0-A48A-AF26B00E9A9C} {8DFEF6F2-91A8-4884-8949-B2551218B37A} {F230BAAC-5951-4EB1-B1E8-94C2CA2B37FA} {01A8C3FC-ED52-458E-A634-D5B6E2ACCFED} {EA442BD7-F69B-42D9-AA71-95E10B648F52} {179FEC38-CAB5-4A47-BCFF-31CFC9E43A3C} {FAABD7FB-CB35-4BAD-8857-EC71468686AD} {47AB0300-7B55-4D35-A786-80190976B9B5} {408435AA-15C0-41E5-981F-32A8226AF15F} {4800F4E6-99EA-4AFD-A392-2CB05265D0D4} {76060A93-949C-48EA-9B31-A593D6C14983} {DAFF9E11-6254-432D-8C4F-F06E52687184} {DDAD25F5-0445-4B5C-8466-6446930AD8B8} {15B569A6-D172-42C2-A420-62AB5946CC80} {D1016CC5-C12B-4F05-915C-70FA062E4A64} {C86DE56A-5048-4B89-B7C7-56BC75C9BCEE} {9D5CA300-5302-41E1-BCA5-8CE5B93F26A5} {9FDD0C65-B2B0-4C6C-8704-3A9747BE5174} {274C86DC-439E-4469-9DE8-7E9BD6455D0D} {A05464E8-6B4D-42B3-A4D6-8683136F4B66} {2C7DD8C3-4C55-475F-BA58-F4BACA520D72} {216AD46F-BC3F-4862-B0E9-2E261E5A6059} {44E96967-AB99-41ED-8B41-5BC70A5CA1A9} {6967C816-3EBB-45FA-8547-CEF00E08573E} {BA3646B0-1487-426E-AB4E-57D42E6F9233} {3050E4DF-2BBA-4C2B-BDCC-B4C89972DB1C} {756F862E-40CC-4DFC-B189-716D0DDA5FF9} {448E9E7B-9548-4A4C-ABB3-853686AA7517} {A2F1352E-45D0-42C4-AEF3-60033073BB66} {CB524E92-4FA8-4F6C-9993-60796856C654} {C1813164-1B4B-42D1-9007-4E5F9AEE0E19} {41D47371-4374-46D3-8D61-B07616EC54F0} {D3A7A02C-A3D5-4A04-9454-0C4E43772B78} {2C4A8956-7B72-48FE-B028-699E117B1DAA} {5D27E2A5-27EC-4CCB-BA2C-FC980FFE6708} {F1BB3957-8D27-47F3-91EC-C71822D11436} {83B77413-8C8A-4AF1-93E4-136EDB7FF15F} {5EC991AD-8761-4A61-A318-312DF3A78604} {1220B0F0-064D-46B7-8507-1FA758B77B9C} {BCD1A5A9-6140-4DC9-9620-689DC7E4C155} {A3EE6897-52FE-42E4-92EC-7A91E7BB905A} {23D89CEE-9F44-4F3E-B289-63DE6BA2B737} {060192C9-BCD9-4260-B729-D6BCFADFB08E} {5646C15A-68AD-4234-B328-254706CBCCC5} {DF85E805-AF87-4FAB-A668-C80F2A5B8A69} {192BECD1-F465-4194-88A2-EE57FED3A3C5} {BED79F64-A53D-44A3-ACE8-2BAA425A5A54} {D28B3872-5173-40A4-B12F-655524386CC7} {86990D54-6EFB-4C53-9974-6C3B0297E222} {68C0A818-2985-46EB-8255-0FB70919FA24} {12280A8C-7578-4367-BA71-214BCC1E4792} {DD70CF36-449A-43FD-839D-A84EE14C849A} {C0009006-715F-4B76-A05A-1A0D3ADFB49A} {84ABDA8F-0007-4BCA-9A61-B2DEA58866C3} {6DCFE2A3-3555-44E4-9116-6F6DBE448B8B} {237B16D9-53F2-4FD4-BEFE-48209E57AEC3} {80BD3F8B-42C7-43D8-91F5-9FB6175287AF} {0C61E8AF-003D-4E4B-B5B7-02F01A26BE26} {EC4284DC-85FA-44A8-89EC-77FC9B71720A} {87B81A1A-A5B5-43D2-A20D-0230800490B9} {4F638E15-2ED0-4193-90CE-47DA580E01DD} {DE305B62-88FC-465B-B23D-D8C0F7E6D361} {7A927632-99A4-4F24-ADCE-0062D2D113D9} {0A72791C-A984-4733-AE4E-2B4373CFD7CD} {4EA4FE06-AAEA-42D4-A9D9-69F6A9A4A042} {0B0C8EE4-FF2D-438E-9CAC-464783B86191} {B96C057B-6416-4851-8D59-BCB37C8E6E51} {B8D1B5D9-8A39-4097-A04A-56E95559B534} {E8CEC794-E8E2-4312-96A7-4832E573D3FC} {77EF419F-481F-40B9-BDB9-7E6678E550E3} {CAD60945-183E-4AB3-A70C-3F5BAC6BF134} {28287157-3F06-487B-8531-BEE8A37329E4} {F5752C9C-56BA-41A7-83FD-139DA28C15FA} {C7852127-2FB8-4959-B5A3-DE5A8D6445E4} {75752E26-A3B6-4264-9B06-F23A4FBDC5A7} {69EE3B55-E142-4E4F-AED8-AF02978FBE87} {FA3C65CD-0A22-47E3-BDF6-53F1DC138C43} {71AB847F-D091-42D6-B735-7B0C2D82FC84} {230C47C5-08B2-4CE3-B706-69C0BDD62965} {44CE4802-409F-43AB-9B27-CA53421805BE} {3DE9A212-1D49-40B6-B10A-F564D981DBDE} {AE638923-2B67-4679-B90E-ABBAB17DCA31} ^ìÉ^-ï‚@â≈©k-ï‚@               Ä  Ä               Ä Ä            Ä Ä  Ç        ¬   Ä Ä             	 Ä	 Ä     
+  
+        Ä Ä                Ä Ä                 Ä Ä             Ä Ä       	  	      Ä	 Ä	     
+  
+     Ä
+ Ä
+                 Ä Ä                 Ä Ä                 Ä Ä                 Ä Ä              Ä Ä            ! Ä! Ä    "  "   Å   # Ä# Ä ¡   $  $      % Ä% Ä      &  &        ' Ä' Ä      (  (        ) Ä) Ä      *  *        + Ä+ Ä      ,  ,        - Ä- Ä      .  .        / Ä/ Ä      0  0        1 Ä1 Ä      2  2        3 Ä3 Ä      4  4        5 Ä5 Ä      6  6        7 Ä7 Ä      8  8        9 Ä9 Ä      :  :        ; Ä; Ä      <  <        = Ä= Ä      >  >        ? Ä? Ä      @   @         A Ä A Ä       B  !B  !      C Ä!C Ä!      D  "D  "      E Ä"E Ä"      F  #F  #      G Ä#G Ä#      H  $H  $      I Ä$I Ä$      J  %J  %      K Ä%K Ä%      L  &L  &   M Ä&M Ä&   N  'N  '  Ç  O Ä'O Ä'    P  (P  (      Q Ä(Q Ä(      R  )R  )      S Ä)S Ä)      T  *T  *      U Ä*U Ä*      V  +V  +      W Ä+W Ä+      X  ,X  ,      Y Ä,Y Ä,      Z  -Z  -      [ Ä-[ Ä-      \  .\  .      ] Ä.] Ä.      ^  /^  /      _ Ä/_ Ä/      `  0`  0      a Ä0a Ä0      b  1b  1      c Ä1c Ä1      d  2d  2      e Ä2e Ä2      f  3f  3      g Ä3g Ä3      h  4h  4      i Ä4i Ä4      j  5j  5      k Ä5k Ä5      l  6l  6      m Ä6m Ä6      n  7n  7      o Ä7o Ä7      p  8p  8      q Ä8q Ä8      r  9r  9      s Ä9s Ä9      t  :t  :      u Ä:u Ä:      v  ;v  ;      w Ä;w Ä;      x  <x  <      y Ä<y Ä<      z  =z  =      { Ä={ Ä=      |  >|  >      } Ä>} Ä>      ~  ?~  ?       Ä? Ä?      Ä  @Ä  @      Å Ä@Å Ä@      Ç  AÇ  A      É ÄAÉ ÄA      Ñ  BÑ  B      Ö ÄBÖ ÄB      Ü  CÜ  C      á ÄCá ÄC      à  Dà  D      â ÄDâ ÄD      ä  Eä  E      ã ÄEã ÄE     å  Få  F      ç ÄFç ÄF      é  Gé  G      è ÄGè ÄG      ê  Hê  H      ë ÄHë ÄH      í  Ií  I      ì ÄIì ÄI      î  Jî  J      ï ÄJï ÄJ      ñ  Kñ  K      ó ÄKó ÄK      ò  Lò  L      ô ÄLô ÄL      ö  Mö  M      õ ÄMõ ÄM      ú  Nú  N      ù ÄNù ÄN      û  Oû  O      ü ÄOü ÄO      †  P†  P      ° ÄP° ÄP      ¢  Q¢  Q      £ ÄQ£ ÄQ      §  R§  R      • ÄR• ÄR      ¶  S¶  S      ß ÄSß ÄS      ®  T®  T  Ä   © ÄT© ÄT      ™  U™  U 0   ´ ÄU´ ÄU 0   ¨  V¨  V 0   ≠ ÄV≠ ÄV 0   Æ  WÆ  W 0   Ø ÄWØ ÄW      ∞  X∞  X      ± ÄX± ÄX      ≤  Y≤  Y      ≥ ÄY≥ ÅY Å   ¥  Z¥ÄZ ¡   µ ÄZµ ÇZ    ∂  [∂Ä[ Å   ∑ Ä[∑ÄÅ[ ¡   ∏  \∏ \    π Ä\π É\    ∫]∫  ]  Ç  ªÇ]ª Ä]  ¬  º^º  ^    ΩÅ^Ω Ä^  Ç  æ_æ  _  ¬  øÉ_ø Ä_    ¿`¿  `  Ç  ¡Ç`¡ Ä`  ¬  ¬a¬  a    √ Äa√ Äa  Ç   ƒ  bƒ  b     ≈ Äb≈ Äb Å   ∆  c∆  c    « Äc« Äc      »  d»  d      … Äd… Äd       e   e     À ÄeÀ Äe    Ã  fÃ  f   Õ ÄfÕ Äf    Œ  gŒ  g    œ Ägœ Äg    –  h–  h    —Ñh—ÑÉh.E(0“i“Ñi.I(0”
+Öi”Äi@ !‘
+j‘ j@ !’Üj’Äj@$j)÷k÷ k@$ä)◊
+Ök◊Äk@ !ÿlÿ
+ l@!ŸàlŸÄl@Æ!⁄m⁄ m@n!€àm€Äm@é!‹n‹ n@Œ!›Ñn›Ñn.È(1ﬁoﬁÑo.	)1ﬂÑoﬂÖo.))1‡p‡Ñp.I)1·Ñp·ÑÉp.i)1‚	q‚q.íD(1„âq„ÑÜq.íÑ)1‰	r‰r.í‰(1ÂârÂÑár.í)=Ê	sÊs.í()=ÁâsÁÑàs.íH)=Ë	tËt.íH(=ÈâtÈÑÜt.íà)=Í	uÍu.íË(=ÎäuÎâu.“)9Ï
+vÏÑ	v.“()9ÌävÌÑv.“H)9Ó
+wÓw.“H(9ÔäwÔäw.“à)9	xÑx.í)1ÒâxÒàx.í$)1Ú	yÚÑy.íD)1ÛãyÛéäy	."ß)1ÙzÙz	.")9ıãzıéãz	."')9ˆ{ˆ{	."«)1˜å{˜éä{	."•)1¯ |¯|	.")9˘ å|˘éã|	."%)9˙}˙}	."≈)1˚å}˚éå}	."ÂI1¸~¸é~	."ÁI1˝"ç~˝ç~
+^Èh9˛"˛ê
+^	i9ˇ"çˇé
+^)i9 #Ä ëÄ
+^Ii9#çÄèÄ
+^ii9%ÅëÅ^’Hh9%éÅêÅ^’ài9%ÇëÇ^’i9%éÇëÇ^’(i9%ÉëÉ^’Hi9'èÉíÉ^ïHh='ÑëÑ^ïài=	'èÑ	ìÑ^ïËh=
+'Ö
+ëÖ^ïi='èÖîÖ^ï(i='ÜëÜ^ïHi='èÜíÜ^ïDh='áëá^ïÑi='èáìá^ï‰h='àëà^ïi='èàîà^ï$i='âëâ^ïDi=)êâïâ^%Ái9)äìä^%ßi9)êäñä^%i9)ãìã^%'i9+ëãïã^%Âi9+åìå^%•i9+ëåñå^%i9+çìç^%%i9-íçóç^%Ái2-éìé^%ßi2-íéòé^%«i2/èè^%Âi2/ìèìóè^%•i2 /ê ê^%≈i2!1îê!ìòê^Â‰i>"1ë"ë^Âj>#1îë#ìôë^Âi>$1í$í^Â$i>%3ïí%ëöí^	i>&3ì&ì^)i>'3ïì'ëõì^Ii>(5î(î^Ih2)5ïî)ëöî^i2*5ï*ï^%i2+5ïï+ëõï^Ei2,5ñ,ëñ^Eh2-7ññ-ùñ^’m2.7ó.ëó^’n2/7ñó/ûó^’∞m207ò0ëò^’m217ñò1üò^’0m229ô2 ô Ç  >3;òô3Äô ¬  >4=ö4 ö  >5?öö5Äö Ç  >6Aõ6 õ ¬  >7Cúõ7Äõ  >8Eú8 ú ¢  29Gûú9Äú ‚  2:Iù: ù " 2;Eùù;Äù í  2<Gû< û “  2=Iüû=Äû  2>K ü>èü.‚‰I>?M°ü?Äü ¢ >@O"†@ †  ‚ >AQ£†AÄ†! " >BS$°B °"(í >CU•°Cõ†°#(“ >DW&¢D!¢$( >EYß¢EÄ¢% * >F[
+£FÖ!£&.“M2G]®£GÄ£' ¢ >H_)§H §( ‚ >Ia™§IÄ§) " >Jc+•J"•*(í >Ke¨•Kõ¢•+(“ >Lg-¶L#¶,( >MiÆ¶MÄ¶- * >NK ßNè#ß..‚*>OK†ßO§ß..‚)>PK ®Pè$®..‚$)>Q[ä®Qâ®&.“.2R[
+©RÖ	©&.“∞-2S[ä©SÑ©&.“-2T[
+™T%™&.“0-2UÑ™UÑ™.Â(2V´VÖ´.)2WÑ´WÖ´.%)2X¨XÖ¨.E)2YkØ¨YÄ¨/@§.Zm0≠Z ≠0@, .[o±≠[!Ä≠1@  .\q2Æ\# Æ2@  .]s≥Æ]#ÄÆ3@$  .^u4Ø^% Ø4@  ._wÖØ_%ÄØ5@  .`y5∞`% ∞6@  .akØ∞aÄ∞/@d.bk/±b ±/@Ñ.ckØ±cÄ±/@ƒ.d{6≤d' ≤7@§.e{∂≤e'Ä≤7@d.f{6≥f' ≥7@Ñ.g}∑≥g)Ä≥8@Æ.h}7¥h) ¥8@n.i}∑¥i)Ä¥8@é.j8µj+ µ9@§"k∏µk+Äµ9@d"l8∂l+ ∂9@Ñ"mÅπ∂m+Ä∂:@$§.nÅ9∑n+ ∑:@$d.oÅπ∑o+Ä∑:@$Ñ.pÉ:∏p- ∏;@¨#qÉ∫∏q-Ä∏;@l#rÉ:πr- π;@å#sÖªπsÄπ<@$§#tÖ;∫t ∫<@$d#uÖª∫uÄ∫<@$Ñ#vá<ªv/ ª=@  #wâΩªw/Äª>@$  #xãºx/ º?@  #yçæºy1Äº@@  #zãΩz	 ΩA@j#{ãáΩ{	ÄΩA@ä#|è?æ|3 æB@  #}ë¿æ}5ÄæC@  #~ìAø~7 øD@$  #ï¬ø9ÄøE@$  #ÄóC¿Ä; ¿F@&#Åôƒ¿ÅÄ¿G@∞#ÇôD¡Ç ¡G@p#Éôƒ¡ÉÄ¡G@ê#ÑôD¬Ñ ¬G@–#Öõ≈¬ÖΩ•¬H.*ë)3ÜùF√Ü=&√I.™(3áõ≈√áΩ¶√H.*—)3àõEƒà='ƒH.*Q*3âõ≈ƒâΩßƒH.*q*3äõE≈äΩ&≈H.*Õ)3ãõ≈≈ã=ß≈H.*M*3åõE∆åΩ'∆H.*m*3çõ≈∆çΩ•∆H.*ç)3éüG«é?(«J( 3èù∆«èΩ®«I.™L*3êùF»ê=)»I.™l*3ëù∆»ëΩ©»I.™L(3íùF…í=&…I.™Ï(3ìù∆…ì=™…I.™)3îùF îΩ( I.™P*3ïù∆ ï=© I.™p*3ñùFÀñΩ)ÀI.™P(3óù∆Àó=™ÀI.™)3ò°HÃòè#Ã.‚.3ô°»Ãô§Ã.‚¶-3ö°HÕöè$Õ.‚∆-3õ£…Õõ¡™ÕK( #ú•JŒúC ŒL ¢  #ùßÀŒùCÄŒM ‚  #û©LœûC œN " #ü• œüCÄœO í  #†ßK–†C –P Í  #°©Ã–°CÄ–Q  #¢•J—¢C —R ™  #£ßÀ—£CÄ—S Í  #§©L“§C “T * #•´Õ“•´“U.¢¶)3¶´M”¶è&”U.¢)3ß´Õ”ßß”U.¢&)3®´M‘®è'‘U.¢F)3©áº‘©1Ä‘V "  #™≠N’™1 ’W   #´áº’´1Ä’X *  #¨ØO÷¨+÷U.¢§)3≠Øœ÷≠è¶÷U.¢)3ÆØO◊Æ'◊U.¢$)3ØØœ◊Øèß◊U.¢D)3∞±3ÿ∞1 ÿY ¢  #±≥–ÿ±1ÄÿZ ‚  #≤µQŸ≤1 Ÿ[ " #≥∑“Ÿ≥1ÄŸ\ í  #¥±3⁄¥1 ⁄] “  #µπ”⁄µ1Ä⁄^  #∂ªT€∂1 €_ *  #∑Ω’€∑≈´€`(¢ #∏øV‹∏E(‹a(‚ #π¡◊‹πE¨‹b(" #∫ΩU›∫≈,›c(í #ªø÷›ªE≠›d(“ #º¡Wﬁº≈-ﬁe( £Ω¡◊ﬁΩEÄﬁf * #æ°Hﬂæèﬂ.‚ÊM3øØœﬂøÆﬂU.¢J3¿´M‡¿.‡U.¢J3¡√ÿ‡¡øÆ‡g( 3¬≈Y·¬ ·h ™  3√«⁄·√Ä·i * 3ƒ£I‚ƒ¡*‚j( #≈;ò‚≈GØ‚k(Ç 3∆…[„∆«/„l(¬ 3«À‹„«G∞„m( 3»Õ]‰»I ‰n  #…œﬁ‰…À∞‰o^Ìåi3 —_Â K1Âp^-—i3À—ﬂÂÀÀ±Âp^-Qj3Ã—_ÊÃK2Êp^-qj3Õ—ﬂÊÕÀ≤Êp^-ëi3Œ”`ÁŒK3Áq^≠lj3œ”‡ÁœÀ≥Áq^≠Lh3–”`Ë–K4Ëq^≠Ïh3—”‡Ë—À¥Ëq^≠i3“”`È“K5Èq^≠Pj3””‡È”ÀµÈq^≠pj3‘”`Í‘K6Íq^≠Ph3’”‡Í’K¥Íq^≠h3÷—_Î÷K1Îp^-Õi3◊—ﬂÎ◊À±Îp^-Mj3ÿ—_ÏÿK2Ïp^-mj3Ÿ—ﬂÏŸÀ≤Ïp^-çi3⁄œ^Ì⁄À6Ìo^ÌÃi3€œﬁÌ€K∑Ìo^ÌLj3‹œ^Ó‹À7Óo^Ìlj3›’·Ó›∏Ór^’n3ﬁ’aÔﬁë8Ôr^’∞m3ﬂ’·ÔﬂπÔr^’m3‡’a‡ë9r^’0m3·◊‚·∫s^ïDh3‚”`Ò‚À4Òq^≠i3„”‡Ò„KµÒq^≠Lj3‰ŸcÚ‰ì:Út^ÂÊm3ÂŸ„ÚÂªÚt^Ân3ÊŸcÛÊì6Ût^Â¶m3ÁŸ„ÛÁ∑Ût^Â∆m3Ë€dÙËì;Ùu^•j3È€‰ÙÈºÙu^•¶i3Í€dıÍì<ıu^•i3Î€‰ıÎΩıu^•&i3Ï€dˆÏì=ˆu^•Fi3Ì›‚ˆÌìªˆu^•j3Ó›b˜Ó<˜u^•§i3Ô›‚˜Ôìº˜u^•i3›b¯=¯u^•$i3Ò›‚¯ÒìΩ¯u^•Di3ÚﬂD˘ÚM>˘v(Ç  3Û·Â˘ÛM≠˘w(¬  3Ù„f˙ÙÕ>˙x( 3ı◊‚˙ıø˙s^ïi3ˆ◊b˚ˆë?˚s^ï$i3˜◊‚˚˜¿˚s^ïDi3

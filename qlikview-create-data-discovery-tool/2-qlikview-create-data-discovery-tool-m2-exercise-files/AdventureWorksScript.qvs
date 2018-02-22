@@ -1,0 +1,236 @@
+﻿///$tab Main
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET MoneyFormat='$#,##0.00;($#,##0.00)';
+SET TimeFormat='h:mm:ss TT';
+SET DateFormat='M/D/YYYY';
+SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT';
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+
+//===========================================================================================================================
+// CREATED BY   : Mike Reagan
+// CREATED DATE : 7/4/2015
+// DATABSE TYPE : MS SQL SERVER 2012 AND QlikView QVDs
+// DATABSE NAME : ADVENTUREWORKS
+//				  SEARCH FOR "ADVENTUREWORKS SAMPLE DATABASE DOWNLOAD"
+//				  RUN THE DOWNLOADED .MSI AND ATTACH IN MS SQL SERVER MANAGEMENT STUDIO
+//
+//===========================================================================================================================
+
+//===========================================================================================================================
+// Adjusting to modify dates for the latest time frame based on today's date
+//===========================================================================================================================
+
+LET vTodaysDate = num(Makedate(Year(today()), 6, 30));
+LET vAdj =  $(vTodaysDate) - Makedate(2004, 6, 30);
+
+
+
+///$tab Mapping
+ProductCostMap:
+MAPPING LOAD DISTINCT
+	ProductID,
+    StandardCost
+FROM
+	ProductCostMap.QVD (qvd)
+;
+
+///$tab Orders
+OrderHeader: 
+Load 
+	SalesOrderID,
+    RevisionNumber,
+    Date(OrderDate + $(vAdj)) as OrderDate,
+    Date(DueDate + $(vAdj)) as DueDate,
+    Date(ShipDate + $(vAdj)) as ShipDate,
+    Status,
+    OnlineOrderFlag,
+    SalesOrderNumber,
+    PurchaseOrderNumber,
+    AccountNumber,
+    CustomerID,
+    ContactID,
+    SalesPersonID,
+    TerritoryID,
+    BillToAddressID,
+    ShipToAddressID,
+    ShipMethodID,
+    CreditCardID,
+    CreditCardApprovalCode,
+    CurrencyRateID,
+    SubTotal,
+    TaxAmt,
+    Freight,
+    TotalDue,
+    Comment
+FROM
+	OrderHeader.QVD (qvd)
+WHERE 
+	OrderDate + $(vAdj) <= $(vTodaysDate) and Year(OrderDate + $(vAdj)) >= Year($(vTodaysDate)) - 2
+;
+
+
+
+[Order Detail]: 
+LOAD
+	SalesOrderID,
+    SalesOrderDetailID,
+    CarrierTrackingNumber,
+    OrderQty,
+    ProductID,
+    SpecialOfferID,
+    UnitPrice,
+    UnitPriceDiscount,
+    LineTotal as SalesAmount,
+	LineTotal - (ApplyMap('ProductCostMap', ProductID, 1)*OrderQty) as MarginAmount,
+    ApplyMap('ProductCostMap', ProductID, 1) as CostAmount
+FROM
+	OrderDetail.QVD (qvd)
+WHERE 
+	EXISTS(SalesOrderID)
+;
+
+///$tab Calendar
+Calendar:
+LOAD DISTINCT
+	OrderDate,
+	Year(OrderDate) as Year,
+	Month(OrderDate) as Month,
+	Date(Monthstart(OrderDate), 'MMM-YYYY') as YearMonth,
+	'Q' & Ceil(Month(OrderDate)/3) as Quarter,
+	Dual(Year(OrderDate) & '-Q' & Ceil(Month(OrderDate)/3), Year(OrderDate) & Ceil(Month(OrderDate)/3)) as YearQtr,
+	Week(OrderDate) as Week
+RESIDENT 
+	OrderHeader;	
+///$tab Products
+Product:
+LOAD
+	ProductID,
+    Name as ProductName,
+    ProductNumber & ' : ' & Name as Product,
+    ProductNumber,
+    MakeFlag,
+    FinishedGoodsFlag,
+    Color,
+    SafetyStockLevel,
+    ReorderPoint,
+    StandardCost,
+    ListPrice,
+    Size,
+    SizeUnitMeasureCode,
+    WeightUnitMeasureCode,
+    Weight,
+    DaysToManufacture,
+    ProductLine,
+    Class,
+    Style,
+    ProductSubcategoryID,
+    ProductModelID,
+    SellStartDate,
+    SellEndDate,
+    DiscontinuedDate
+FROM
+	Product.QVD (qvd)
+WHERE 
+	EXISTS(ProductID)
+;
+
+
+
+ProductSubCategory:
+LOAD
+	ProductSubcategoryID,
+    Name as ProductSubcategoryName,
+    ProductCategoryID
+FROM
+	ProductSubCategory.QVD (qvd)
+WHERE 
+	EXISTS(ProductSubcategoryID)
+;
+
+
+
+ProductCategory:
+LOAD
+	ProductCategoryID,
+    Name as ProductCategoryName
+FROM
+	ProductCategory.QVD (qvd)
+WHERE 
+	EXISTS(ProductCategoryID)
+;
+
+
+
+///$tab Customer
+Customer: 
+LOAD
+	CustomerID,
+	LastName & ', ' & FirstName as CustomerName,
+	CustomerID & ' - ' & LastName & ', ' & FirstName as Customer,
+	Phone,
+    EmailAddress,
+    EmailPromotion,
+    Title
+FROM
+	Customer.QVD (qvd)
+WHERE 
+	EXISTS(CustomerID)
+;
+
+
+vIndividualDemographics:
+LOAD
+	CustomerID,
+    TotalPurchaseYTD,
+    DateFirstPurchase,
+    Date(BirthDate) as BirthDate,
+    MaritalStatus,
+    YearlyIncome,
+    Gender,
+    if(TotalChildren > 0, 'YES', 'NO') as [Have Child(ren)],
+    TotalChildren,
+    NumberChildrenAtHome,
+    Education,
+    Occupation,
+    HomeOwnerFlag,
+    NumberCarsOwned
+FROM
+	vIndividualDemographics.QVD (qvd)
+WHERE 
+	EXISTS(CustomerID)
+;
+
+
+[Customer Type]: 
+Load 
+	CustomerID,
+	if(CustomerType = 'S','STORE',if(CustomerType='I', 'INDIVIDUAL', CustomerType)) as CustomerType
+FROM
+	CustomerType.QVD (qvd)
+WHERE 
+	EXISTS(CustomerID)
+;
+
+
+BillToAddress:
+LOAD
+	BillToAddressID, 
+	AddressLine1, 
+	AddressLine2, 
+	City, 
+	StateProvinceID, 
+	PostalCode, 
+	CountryRegionCode,
+	[State / Province], 
+	Country
+FROM
+	BillToAddress.QVD (qvd)
+WHERE 
+	EXISTS(BillToAddressID)
+;
+
+	
